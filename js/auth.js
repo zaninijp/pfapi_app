@@ -12,8 +12,8 @@ const landingUrl = baseUrl; // url to send the person once authentication is com
 const logoutUrl = baseUrl + '/sp/startSLO.ping'; // whitelisted url to send a person who wants to logout
 const redirectUri = baseUrl + '/login/'; // whitelisted url P14C sends the token or code to
 
-const authUrl = 'https://pingfederate-joezanini-github-lab.ping-devops.com'; //Set to your PingFederate base URL and engine port.
-const apiUrl = 'https://pingfederate-joezanini-github-lab.ping-devops.com/pf-ws/authn/flows'; //just change the base URL.
+const authUrl = 'https://baseURL:9031'; //Set to your PingFederate base URL and engine port.
+const apiUrl = 'https://baseURL/pf-ws/authn/flows'; //just change the base URL.
 
 // if environmentId or clientId are null warn the user
 
